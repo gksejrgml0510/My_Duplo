@@ -1,0 +1,21 @@
+names:
+- 2x2_blue
+- 2x2_green
+- 2x2_orange
+- 2x2_red
+- 2x2_yellow
+- 4x2_blue
+- 4x2_green
+- 4x2_orange
+- 4x2_red
+- 4x2_yellow
+nc: 10
+roboflow:
+  license: CC BY 4.0
+  project: duplo-3.0
+  url: https://universe.roboflow.com/pose-detection-duplo/duplo-3.0/dataset/23
+  version: 23
+  workspace: pose-detection-duplo
+test: ../test/images
+train: ../train/images
+val: ../valid/images
