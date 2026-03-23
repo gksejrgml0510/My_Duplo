@@ -1,10 +1,10 @@
-## My_Duplo 사용법 
+# My_Duplo 사용법 
 
 find /home/han -name "best.pt" 를 터미널에 입력 후 맞는 주소 찾기
 
 찾은 주소를 duplo_perception_node.py 파일의 self.model = YOLO( ' 찾은 주소 ') 에 넣어주기.
 
-# 기본 도구 설치
+### 기본 도구 설치
 sudo apt update && sudo apt install -y python3-pip python3-colcon-common-extensions
 # ROS2 의존성 관리 도구
 sudo apt install -y python3-rosdep
