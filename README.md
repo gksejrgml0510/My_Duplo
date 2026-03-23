@@ -1,6 +1,6 @@
 # My_Duplo 사용법 
 
-find /home/han -name "best.pt" 를 터미널에 입력 후 맞는 주소 찾기
+find /home/(ROS_ID) -name "best.pt" 를 터미널에 입력 후 맞는 주소 찾기 <Ex)ROS_ID=han >
 
 찾은 주소를 duplo_perception_node.py 파일의 self.model = YOLO( ' 찾은 주소 ') 에 넣어주기.
 
@@ -23,7 +23,7 @@ pip install opencv-python cvbridge-python
 
 ## 필요한 드라이버 및 환경 세팅
 
-cd ~/My_Duplo_Project/robot_ws
+cd ~/My_Duplo/robot_ws
 
 ### 1. 의존성 자동 설치 (혹시 빠진 게 있을까봐)
 rosdep install -i --from-path src --rosdistro humble -y
