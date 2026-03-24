@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (my_perception) JobQueued: {'identifier': 'my_perception', 'dependencies': OrderedDict()}
+[0.000216] (my_perception) JobStarted: {'identifier': 'my_perception'}
+[0.099045] (-) TimerEvent: {}
+[0.199329] (-) TimerEvent: {}
+[0.299607] (-) TimerEvent: {}
+[0.399949] (-) TimerEvent: {}
+[0.500217] (-) TimerEvent: {}
+[0.600461] (-) TimerEvent: {}
+[0.688429] (my_perception) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_perception', 'build', '--build-base', '/home/han/My_Duplo/robot_ws/build/my_perception/build', 'install', '--record', '/home/han/My_Duplo/robot_ws/build/my_perception/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/han/My_Duplo/robot_ws/src/my_perception', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en_US:en', 'USER': 'han', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/han', 'OLDPWD': '/home/han', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1244', 'SYSTEMD_EXEC_PID': '1703', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '39186', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/han/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'han', 'JOURNAL_STREAM': '8:12838', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'han', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/han/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/han:@/tmp/.ICE-unix/1470,unix/han:/tmp/.ICE-unix/1470', 'INVOCATION_ID': '445e526b7fef4ba6978845af3a4905e3', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A7FVM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/han/install/my_perception', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:069253bb-8f25-4443-8643-6635722293bf', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/han/My_Duplo/robot_ws/build/my_perception', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/han/My_Duplo/robot_ws/build/my_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/han/install/my_perception/lib/python3.10/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.700545] (-) TimerEvent: {}
+[0.800865] (-) TimerEvent: {}
+[0.901335] (-) TimerEvent: {}
+[1.001799] (-) TimerEvent: {}
+[1.015098] (my_perception) StdoutLine: {'line': b'running egg_info\n'}
+[1.015756] (my_perception) StdoutLine: {'line': b'creating ../../build/my_perception/my_perception.egg-info\n'}
+[1.016008] (my_perception) StdoutLine: {'line': b'writing ../../build/my_perception/my_perception.egg-info/PKG-INFO\n'}
+[1.016502] (my_perception) StdoutLine: {'line': b'writing dependency_links to ../../build/my_perception/my_perception.egg-info/dependency_links.txt\n'}
+[1.016779] (my_perception) StdoutLine: {'line': b'writing entry points to ../../build/my_perception/my_perception.egg-info/entry_points.txt\n'}
+[1.016913] (my_perception) StdoutLine: {'line': b'writing requirements to ../../build/my_perception/my_perception.egg-info/requires.txt\n'}
+[1.017041] (my_perception) StdoutLine: {'line': b'writing top-level names to ../../build/my_perception/my_perception.egg-info/top_level.txt\n'}
+[1.017234] (my_perception) StdoutLine: {'line': b"writing manifest file '../../build/my_perception/my_perception.egg-info/SOURCES.txt'\n"}
+[1.020203] (my_perception) StdoutLine: {'line': b"reading manifest file '../../build/my_perception/my_perception.egg-info/SOURCES.txt'\n"}
+[1.021169] (my_perception) StdoutLine: {'line': b"writing manifest file '../../build/my_perception/my_perception.egg-info/SOURCES.txt'\n"}
+[1.021530] (my_perception) StdoutLine: {'line': b'running build\n'}
+[1.021782] (my_perception) StdoutLine: {'line': b'running build_py\n'}
+[1.021881] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/build/my_perception/build\n'}
+[1.021977] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/build/my_perception/build/lib\n'}
+[1.022052] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/build/my_perception/build/lib/my_perception\n'}
+[1.022155] (my_perception) StdoutLine: {'line': b'copying my_perception/__init__.py -> /home/han/My_Duplo/robot_ws/build/my_perception/build/lib/my_perception\n'}
+[1.022230] (my_perception) StdoutLine: {'line': b'copying my_perception/duplo_perception_node.py -> /home/han/My_Duplo/robot_ws/build/my_perception/build/lib/my_perception\n'}
+[1.022329] (my_perception) StdoutLine: {'line': b'running install\n'}
+[1.023137] (my_perception) StdoutLine: {'line': b'running install_lib\n'}
+[1.024048] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception\n'}
+[1.024393] (my_perception) StdoutLine: {'line': b'copying /home/han/My_Duplo/robot_ws/build/my_perception/build/lib/my_perception/__init__.py -> /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception\n'}
+[1.024512] (my_perception) StdoutLine: {'line': b'copying /home/han/My_Duplo/robot_ws/build/my_perception/build/lib/my_perception/duplo_perception_node.py -> /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception\n'}
+[1.024936] (my_perception) StdoutLine: {'line': b'byte-compiling /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception/__init__.py to __init__.cpython-310.pyc\n'}
+[1.025337] (my_perception) StdoutLine: {'line': b'byte-compiling /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception/duplo_perception_node.py to duplo_perception_node.cpython-310.pyc\n'}
+[1.026694] (my_perception) StdoutLine: {'line': b'running install_data\n'}
+[1.026946] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/install/my_perception/share/ament_index\n'}
+[1.027229] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/install/my_perception/share/ament_index/resource_index\n'}
+[1.027428] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/install/my_perception/share/ament_index/resource_index/packages\n'}
+[1.027611] (my_perception) StdoutLine: {'line': b'copying resource/my_perception -> /home/han/My_Duplo/robot_ws/install/my_perception/share/ament_index/resource_index/packages\n'}
+[1.027803] (my_perception) StdoutLine: {'line': b'copying package.xml -> /home/han/My_Duplo/robot_ws/install/my_perception/share/my_perception\n'}
+[1.027936] (my_perception) StdoutLine: {'line': b'creating /home/han/My_Duplo/robot_ws/install/my_perception/share/my_perception/launch\n'}
+[1.028063] (my_perception) StdoutLine: {'line': b'copying launch/duplo_launch.py -> /home/han/My_Duplo/robot_ws/install/my_perception/share/my_perception/launch\n'}
+[1.028190] (my_perception) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.030956] (my_perception) StdoutLine: {'line': b'Copying ../../build/my_perception/my_perception.egg-info to /home/han/My_Duplo/robot_ws/install/my_perception/lib/python3.10/site-packages/my_perception-0.0.0-py3.10.egg-info\n'}
+[1.031943] (my_perception) StdoutLine: {'line': b'running install_scripts\n'}
+[1.058294] (my_perception) StdoutLine: {'line': b'Installing duplo_perception_node script to /home/han/My_Duplo/robot_ws/install/my_perception/lib/my_perception\n'}
+[1.058668] (my_perception) StdoutLine: {'line': b"writing list of installed files to '/home/han/My_Duplo/robot_ws/build/my_perception/install.log'\n"}
+[1.091522] (my_perception) CommandEnded: {'returncode': 0}
+[1.102042] (-) TimerEvent: {}
+[1.105735] (my_perception) JobEnded: {'identifier': 'my_perception', 'rc': 0}
+[1.106849] (-) EventReactorShutdown: {}

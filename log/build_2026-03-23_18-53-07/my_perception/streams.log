@@ -1,0 +1,26 @@
+[0.813s] Invoking command in '/home/han/My_Duplo/build/my_perception': PYTHONPATH=/home/han/My_Duplo/build/my_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/My_Duplo/install/my_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/han/My_Duplo/build/my_perception/build --no-deps symlink_data
+[1.049s] running develop
+[1.159s] running egg_info
+[1.159s] creating my_perception.egg-info
+[1.159s] writing my_perception.egg-info/PKG-INFO
+[1.159s] writing dependency_links to my_perception.egg-info/dependency_links.txt
+[1.159s] writing entry points to my_perception.egg-info/entry_points.txt
+[1.160s] writing requirements to my_perception.egg-info/requires.txt
+[1.160s] writing top-level names to my_perception.egg-info/top_level.txt
+[1.160s] writing manifest file 'my_perception.egg-info/SOURCES.txt'
+[1.162s] reading manifest file 'my_perception.egg-info/SOURCES.txt'
+[1.163s] writing manifest file 'my_perception.egg-info/SOURCES.txt'
+[1.164s] running build_ext
+[1.164s] Creating /home/han/My_Duplo/install/my_perception/lib/python3.10/site-packages/my-perception.egg-link (link to .)
+[1.165s] Installing duplo_perception_node script to /home/han/My_Duplo/install/my_perception/lib/my_perception
+[1.165s] 
+[1.166s] Installed /home/han/My_Duplo/build/my_perception
+[1.166s] running symlink_data
+[1.166s] creating /home/han/My_Duplo/install/my_perception/share/ament_index
+[1.166s] creating /home/han/My_Duplo/install/my_perception/share/ament_index/resource_index
+[1.167s] creating /home/han/My_Duplo/install/my_perception/share/ament_index/resource_index/packages
+[1.167s] symbolically linking /home/han/My_Duplo/build/my_perception/resource/my_perception -> /home/han/My_Duplo/install/my_perception/share/ament_index/resource_index/packages
+[1.167s] symbolically linking /home/han/My_Duplo/build/my_perception/package.xml -> /home/han/My_Duplo/install/my_perception/share/my_perception
+[1.167s] creating /home/han/My_Duplo/install/my_perception/share/my_perception/launch
+[1.167s] symbolically linking /home/han/My_Duplo/build/my_perception/launch/duplo_launch.py -> /home/han/My_Duplo/install/my_perception/share/my_perception/launch
+[1.192s] Invoked command in '/home/han/My_Duplo/build/my_perception' returned '0': PYTHONPATH=/home/han/My_Duplo/build/my_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/han/My_Duplo/install/my_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/han/My_Duplo/build/my_perception/build --no-deps symlink_data

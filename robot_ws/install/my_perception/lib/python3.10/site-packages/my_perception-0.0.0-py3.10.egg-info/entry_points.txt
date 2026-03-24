@@ -1,0 +1,3 @@
+[console_scripts]
+duplo_perception_node = my_perception.duplo_perception_node:main
+
